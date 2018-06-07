@@ -1,0 +1,126 @@
+<xbrli:xbrl xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="rollover.xbrl.xsd"/>
+  <xbrli:context id="c0001">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://abr.gov.au/abn">0123456789</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>1970-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0001">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <tns:Request>
+    <tns:Request_sender>
+      <tns:Sender_organisation>
+        <tns:Organisation_typeCode contextRef="c0001">foo</tns:Organisation_typeCode>
+        <tns:Organisation_name contextRef="c0001">foo</tns:Organisation_name>
+      </tns:Sender_organisation>
+      <tns:Sender_person>
+        <tns:Person_familyName contextRef="c0001">foo</tns:Person_familyName>
+        <tns:Person_givenName contextRef="c0001">foo</tns:Person_givenName>
+        <tns:Person_otherName contextRef="c0001">foo</tns:Person_otherName>
+        <tns:Person_position contextRef="c0001">foo</tns:Person_position>
+      </tns:Sender_person>
+      <tns:Sender_email>
+        <tns:Email_usageCode contextRef="c0001">foo</tns:Email_usageCode>
+        <tns:Email_address contextRef="c0001">foo</tns:Email_address>
+      </tns:Sender_email>
+      <tns:Sender_phone>
+        <tns:Phone_usageCode contextRef="c0001">foo</tns:Phone_usageCode>
+        <tns:Phone_number contextRef="c0001">foo</tns:Phone_number>
+      </tns:Sender_phone>
+    </tns:Request_sender>
+    <tns:Request_receiver>
+      <tns:Receiver_organisation>
+        <tns:Organisation_typeCode contextRef="c0001">foo</tns:Organisation_typeCode>
+        <tns:Organisation_name contextRef="c0001">foo</tns:Organisation_name>
+      </tns:Receiver_organisation>
+    </tns:Request_receiver>
+    <tns:Request_member>
+      <tns:Member_transferring>
+        <tns:FundMembership_abn contextRef="c0001">foo</tns:FundMembership_abn>
+        <tns:FundMembership_usi contextRef="c0001">foo</tns:FundMembership_usi>
+      </tns:Member_transferring>
+      <tns:Member_receiving>
+        <tns:FundMembership_abn contextRef="c0001">foo</tns:FundMembership_abn>
+        <tns:FundMembership_usi contextRef="c0001">foo</tns:FundMembership_usi>
+      </tns:Member_receiving>
+      <tns:Member_usi contextRef="c0001">foo</tns:Member_usi>
+      <tns:Member_person>
+        <tns:Person_familyName contextRef="c0001">foo</tns:Person_familyName>
+        <tns:Person_givenName contextRef="c0001">foo</tns:Person_givenName>
+        <tns:Person_otherName contextRef="c0001">foo</tns:Person_otherName>
+        <tns:Person_position contextRef="c0001">foo</tns:Person_position>
+      </tns:Member_person>
+      <tns:Member_sex contextRef="c0001">foo</tns:Member_sex>
+      <tns:Member_birthDate contextRef="c0001">foo</tns:Member_birthDate>
+      <tns:Member_address>
+        <tns:Address_usage contextRef="c0001">foo</tns:Address_usage>
+        <tns:Address_line1 contextRef="c0001">foo</tns:Address_line1>
+        <tns:Address_line2 contextRef="c0001">foo</tns:Address_line2>
+        <tns:Address_line3 contextRef="c0001">foo</tns:Address_line3>
+        <tns:Address_line4 contextRef="c0001">foo</tns:Address_line4>
+        <tns:Address_suburb contextRef="c0001">foo</tns:Address_suburb>
+        <tns:Address_postcode contextRef="c0001">foo</tns:Address_postcode>
+        <tns:Address_state contextRef="c0001">foo</tns:Address_state>
+        <tns:Address_country contextRef="c0001">foo</tns:Address_country>
+      </tns:Member_address>
+      <tns:Member_tfnProvided contextRef="c0001">true</tns:Member_tfnProvided>
+      <tns:Member_wholeBalance contextRef="c0001">true</tns:Member_wholeBalance>
+      <tns:Member_requestAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:Member_requestAmount>
+      <tns:Member_id contextRef="c0001">foo</tns:Member_id>
+      <tns:Member_details>
+        <tns:OtherDetails_name contextRef="c0001">foo</tns:OtherDetails_name>
+        <tns:OtherDetails_value contextRef="c0001">foo</tns:OtherDetails_value>
+      </tns:Member_details>
+      <tns:Member_details>
+        <tns:OtherDetails_name contextRef="c0001">foo</tns:OtherDetails_name>
+        <tns:OtherDetails_value contextRef="c0001">foo</tns:OtherDetails_value>
+      </tns:Member_details>
+    </tns:Request_member>
+    <tns:Request_member>
+      <tns:Member_transferring>
+        <tns:FundMembership_abn contextRef="c0001">foo</tns:FundMembership_abn>
+        <tns:FundMembership_usi contextRef="c0001">foo</tns:FundMembership_usi>
+      </tns:Member_transferring>
+      <tns:Member_receiving>
+        <tns:FundMembership_abn contextRef="c0001">foo</tns:FundMembership_abn>
+        <tns:FundMembership_usi contextRef="c0001">foo</tns:FundMembership_usi>
+      </tns:Member_receiving>
+      <tns:Member_usi contextRef="c0001">foo</tns:Member_usi>
+      <tns:Member_person>
+        <tns:Person_familyName contextRef="c0001">foo</tns:Person_familyName>
+        <tns:Person_givenName contextRef="c0001">foo</tns:Person_givenName>
+        <tns:Person_otherName contextRef="c0001">foo</tns:Person_otherName>
+        <tns:Person_position contextRef="c0001">foo</tns:Person_position>
+      </tns:Member_person>
+      <tns:Member_sex contextRef="c0001">foo</tns:Member_sex>
+      <tns:Member_birthDate contextRef="c0001">foo</tns:Member_birthDate>
+      <tns:Member_address>
+        <tns:Address_usage contextRef="c0001">foo</tns:Address_usage>
+        <tns:Address_line1 contextRef="c0001">foo</tns:Address_line1>
+        <tns:Address_line2 contextRef="c0001">foo</tns:Address_line2>
+        <tns:Address_line3 contextRef="c0001">foo</tns:Address_line3>
+        <tns:Address_line4 contextRef="c0001">foo</tns:Address_line4>
+        <tns:Address_suburb contextRef="c0001">foo</tns:Address_suburb>
+        <tns:Address_postcode contextRef="c0001">foo</tns:Address_postcode>
+        <tns:Address_state contextRef="c0001">foo</tns:Address_state>
+        <tns:Address_country contextRef="c0001">foo</tns:Address_country>
+      </tns:Member_address>
+      <tns:Member_tfnProvided contextRef="c0001">true</tns:Member_tfnProvided>
+      <tns:Member_wholeBalance contextRef="c0001">true</tns:Member_wholeBalance>
+      <tns:Member_requestAmount decimals="0" contextRef="c0001" unitRef="u0001">3.14</tns:Member_requestAmount>
+      <tns:Member_id contextRef="c0001">foo</tns:Member_id>
+      <tns:Member_details>
+        <tns:OtherDetails_name contextRef="c0001">foo</tns:OtherDetails_name>
+        <tns:OtherDetails_value contextRef="c0001">foo</tns:OtherDetails_value>
+      </tns:Member_details>
+      <tns:Member_details>
+        <tns:OtherDetails_name contextRef="c0001">foo</tns:OtherDetails_name>
+        <tns:OtherDetails_value contextRef="c0001">foo</tns:OtherDetails_value>
+      </tns:Member_details>
+    </tns:Request_member>
+  </tns:Request>
+</xbrli:xbrl>

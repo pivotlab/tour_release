@@ -1,0 +1,119 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Shuck">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="models">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="model" type="Model"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="definitions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="definition" type="Definition"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="releases">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="release" type="Release"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Model">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="root" type="Class"/>
+      <xs:element name="classes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="class" type="Class"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Class">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="memberClasses">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="memberClass" type="Class"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="memberDefinitions">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="memberDefinition" type="Definition"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Definition">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="definition" type="xs:string"/>
+      <xs:element name="guidance" type="xs:string"/>
+      <xs:element name="enumerationses">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="enumerations" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="facetses">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="facets" type="NameValue"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syntaxs">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="syntax" type="Syntax"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="NameValue">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="value" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Syntax">
+    <xs:sequence>
+      <xs:element name="technologoyName" type="xs:string"/>
+      <xs:element name="fieldses">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="fields" type="NameValue"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Release">
+    <xs:sequence>
+      <xs:element name="generatedModels">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="generatedModel" type="Model"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

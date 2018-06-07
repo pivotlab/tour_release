@@ -1,0 +1,70 @@
+{
+  "sender": {
+    "organisation": {
+      "typeCode": "foo",
+      "name": "foo"
+    },
+    "person": {
+      "familyName": "foo",
+      "givenName": "foo",
+      "otherName": "foo",
+      "position": "foo"
+    },
+    "email": {
+      "usageCode": "foo",
+      "address": "foo"
+    },
+    "phone": {
+      "usageCode": "foo",
+      "number": "foo"
+    }
+  },
+  "receiver": {
+    "organisation": {
+      "typeCode": "foo",
+      "name": "foo"
+    }
+  },
+  "member": [
+    {
+      "transferring": {
+        "abn": "foo",
+        "usi": "foo"
+      },
+      "receiving": {
+        "abn": "foo",
+        "usi": "foo"
+      },
+      "usi": "foo",
+      "person": {
+        "familyName": "foo",
+        "givenName": "foo",
+        "otherName": "foo",
+        "position": "foo"
+      },
+      "sex": "foo",
+      "birthDate": "foo",
+      "address": {
+        "usage": "foo",
+        "line1": "foo",
+        "line2": "foo",
+        "line3": "foo",
+        "line4": "foo",
+        "suburb": "foo",
+        "postcode": "foo",
+        "state": "foo",
+        "country": "foo"
+      },
+      "tfnProvided": true,
+      "wholeBalance": true,
+      "requestAmount": 3.14,
+      "id": "foo",
+      "details": [
+        {
+          "name": "foo",
+          "value": "foo"
+        }
+      ]
+    }
+  ]
+}

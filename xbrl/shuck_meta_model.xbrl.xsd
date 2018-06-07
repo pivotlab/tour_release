@@ -1,0 +1,145 @@
+<xsd:schema targetNamespace="http://ausdx.io" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="shuck_meta_model.xbrl.labels.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://ausdx.io/label" id="label">
+        <link:definition>label</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/definition" id="definition">
+        <link:definition>definition</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/guidance" id="guidance">
+        <link:definition>guidance</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/comment" id="comment">
+        <link:definition>comment</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element name="Shuck" id="Shuck" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="tns:Shuck_model"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Shuck_definition"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Shuck_release"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Shuck_model" id="Shuck_model" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Model_name"/>
+        <xsd:element maxOccurs="1" ref="tns:Model_root"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Model_class"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Model_name" id="Model_name" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Model_root" id="Model_root" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Class_name"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Class_memberClass"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Class_memberDefinition"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Class_name" id="Class_name" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Class_memberClass" id="Class_memberClass" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Class_name"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Class_memberClass"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Class_memberDefinition"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Class_memberDefinition" id="Class_memberDefinition" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Definition_name"/>
+        <xsd:element maxOccurs="1" ref="tns:Definition_id"/>
+        <xsd:element maxOccurs="1" ref="tns:Definition_definition"/>
+        <xsd:element maxOccurs="1" ref="tns:Definition_guidance"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Definition_enumerations"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Definition_facets"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Definition_syntax"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Definition_name" id="Definition_name" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Definition_id" id="Definition_id" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Definition_definition" id="Definition_definition" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Definition_guidance" id="Definition_guidance" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Definition_enumerations" id="Definition_enumerations" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Definition_facets" id="Definition_facets" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:NameValue_name"/>
+        <xsd:element maxOccurs="1" ref="tns:NameValue_value"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="NameValue_name" id="NameValue_name" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="NameValue_value" id="NameValue_value" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Definition_syntax" id="Definition_syntax" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Syntax_technologoyName"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Syntax_fields"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Syntax_technologoyName" id="Syntax_technologoyName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Syntax_fields" id="Syntax_fields" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:NameValue_name"/>
+        <xsd:element maxOccurs="1" ref="tns:NameValue_value"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Model_class" id="Model_class" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Class_name"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Class_memberClass"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Class_memberDefinition"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Shuck_definition" id="Shuck_definition" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Definition_name"/>
+        <xsd:element maxOccurs="1" ref="tns:Definition_id"/>
+        <xsd:element maxOccurs="1" ref="tns:Definition_definition"/>
+        <xsd:element maxOccurs="1" ref="tns:Definition_guidance"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Definition_enumerations"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Definition_facets"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Definition_syntax"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Shuck_release" id="Shuck_release" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="unbounded" ref="tns:Release_generatedModel"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Release_generatedModel" id="Release_generatedModel" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Model_name"/>
+        <xsd:element maxOccurs="1" ref="tns:Model_root"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Model_class"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

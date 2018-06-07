@@ -1,0 +1,189 @@
+<xsd:schema targetNamespace="http://ausdx.io" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="rollover.xbrl.labels.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:roleType roleURI="http://ausdx.io/label" id="label">
+        <link:definition>label</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/definition" id="definition">
+        <link:definition>definition</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/guidance" id="guidance">
+        <link:definition>guidance</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://ausdx.io/comment" id="comment">
+        <link:definition>comment</link:definition>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:element name="Request" id="Request" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Request_sender"/>
+        <xsd:element maxOccurs="1" ref="tns:Request_receiver"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Request_member"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Request_sender" id="Request_sender" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Sender_organisation"/>
+        <xsd:element maxOccurs="1" ref="tns:Sender_person"/>
+        <xsd:element maxOccurs="1" ref="tns:Sender_email"/>
+        <xsd:element maxOccurs="1" ref="tns:Sender_phone"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Sender_organisation" id="Sender_organisation" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Organisation_typeCode"/>
+        <xsd:element maxOccurs="1" ref="tns:Organisation_name"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Organisation_typeCode" id="Organisation_typeCode" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Organisation_name" id="Organisation_name" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Sender_person" id="Sender_person" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Person_familyName"/>
+        <xsd:element maxOccurs="1" ref="tns:Person_givenName"/>
+        <xsd:element maxOccurs="1" ref="tns:Person_otherName"/>
+        <xsd:element maxOccurs="1" ref="tns:Person_position"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Person_familyName" id="Person_familyName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Person_givenName" id="Person_givenName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Person_otherName" id="Person_otherName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Person_position" id="Person_position" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Sender_email" id="Sender_email" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Email_usageCode"/>
+        <xsd:element maxOccurs="1" ref="tns:Email_address"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Email_usageCode" id="Email_usageCode" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Email_address" id="Email_address" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Sender_phone" id="Sender_phone" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Phone_usageCode"/>
+        <xsd:element maxOccurs="1" ref="tns:Phone_number"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Phone_usageCode" id="Phone_usageCode" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Phone_number" id="Phone_number" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Request_receiver" id="Request_receiver" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Receiver_organisation"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Receiver_organisation" id="Receiver_organisation" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Organisation_typeCode"/>
+        <xsd:element maxOccurs="1" ref="tns:Organisation_name"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Request_member" id="Request_member" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Member_transferring"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_receiving"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_usi"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_person"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_sex"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_birthDate"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_address"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_tfnProvided"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_wholeBalance"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_requestAmount"/>
+        <xsd:element maxOccurs="1" ref="tns:Member_id"/>
+        <xsd:element maxOccurs="unbounded" ref="tns:Member_details"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Member_transferring" id="Member_transferring" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:FundMembership_abn"/>
+        <xsd:element maxOccurs="1" ref="tns:FundMembership_usi"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="FundMembership_abn" id="FundMembership_abn" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="FundMembership_usi" id="FundMembership_usi" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_receiving" id="Member_receiving" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:FundMembership_abn"/>
+        <xsd:element maxOccurs="1" ref="tns:FundMembership_usi"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Member_usi" id="Member_usi" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_person" id="Member_person" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Person_familyName"/>
+        <xsd:element maxOccurs="1" ref="tns:Person_givenName"/>
+        <xsd:element maxOccurs="1" ref="tns:Person_otherName"/>
+        <xsd:element maxOccurs="1" ref="tns:Person_position"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Member_sex" id="Member_sex" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_birthDate" id="Member_birthDate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_address" id="Member_address" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:Address_usage"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_line1"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_line2"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_line3"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_line4"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_suburb"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_postcode"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_state"/>
+        <xsd:element maxOccurs="1" ref="tns:Address_country"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="Address_usage" id="Address_usage" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_line1" id="Address_line1" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_line2" id="Address_line2" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_line3" id="Address_line3" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_line4" id="Address_line4" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_suburb" id="Address_suburb" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_postcode" id="Address_postcode" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_state" id="Address_state" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Address_country" id="Address_country" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_tfnProvided" id="Member_tfnProvided" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_wholeBalance" id="Member_wholeBalance" type="xbrli:booleanItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_requestAmount" id="Member_requestAmount" type="xbrli:floatItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_id" id="Member_id" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="Member_details" id="Member_details" substitutionGroup="xbrli:tuple">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element maxOccurs="1" ref="tns:OtherDetails_name"/>
+        <xsd:element maxOccurs="1" ref="tns:OtherDetails_value"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="OtherDetails_name" id="OtherDetails_name" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+  <xsd:element name="OtherDetails_value" id="OtherDetails_value" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant"/>
+</xsd:schema>

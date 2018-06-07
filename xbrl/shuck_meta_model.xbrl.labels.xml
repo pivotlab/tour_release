@@ -1,0 +1,89 @@
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://ausdx.io/label" xlink:type="simple" xlink:href="shuck_meta_model.xbrl.xsd#label"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/label">
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Shuck" xlink:label="loc_Shuck_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Shuck_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Shuck_label">Shuck</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Shuck_label" xlink:to="lbl_Shuck_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Shuck_model" xlink:label="loc_Shuck_model_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Shuck_model_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Shuck_model_label">model</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Shuck_model_label" xlink:to="lbl_Shuck_model_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Model_name" xlink:label="loc_Model_name_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Model_name_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Model_name_label">name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Model_name_label" xlink:to="lbl_Model_name_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Model_root" xlink:label="loc_Model_root_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Model_root_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Model_root_label">root</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Model_root_label" xlink:to="lbl_Model_root_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Class_name" xlink:label="loc_Class_name_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Class_name_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Class_name_label">name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Class_name_label" xlink:to="lbl_Class_name_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Class_memberClass" xlink:label="loc_Class_memberClass_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Class_memberClass_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Class_memberClass_label">memberClass</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Class_memberClass_label" xlink:to="lbl_Class_memberClass_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Class_memberDefinition" xlink:label="loc_Class_memberDefinition_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Class_memberDefinition_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Class_memberDefinition_label">memberDefinition</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Class_memberDefinition_label" xlink:to="lbl_Class_memberDefinition_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_name" xlink:label="loc_Definition_name_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_name_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_name_label">name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_name_label" xlink:to="lbl_Definition_name_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_id" xlink:label="loc_Definition_id_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_id_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_id_label">id</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_id_label" xlink:to="lbl_Definition_id_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_definition" xlink:label="loc_Definition_definition_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_definition_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_definition_label">definition</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_definition_label" xlink:to="lbl_Definition_definition_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_guidance" xlink:label="loc_Definition_guidance_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_guidance_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_guidance_label">guidance</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_guidance_label" xlink:to="lbl_Definition_guidance_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_enumerations" xlink:label="loc_Definition_enumerations_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_enumerations_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_enumerations_label">enumerations</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_enumerations_label" xlink:to="lbl_Definition_enumerations_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_facets" xlink:label="loc_Definition_facets_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_facets_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_facets_label">facets</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_facets_label" xlink:to="lbl_Definition_facets_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#NameValue_name" xlink:label="loc_NameValue_name_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_NameValue_name_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_NameValue_name_label">name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NameValue_name_label" xlink:to="lbl_NameValue_name_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#NameValue_value" xlink:label="loc_NameValue_value_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_NameValue_value_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_NameValue_value_label">value</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_NameValue_value_label" xlink:to="lbl_NameValue_value_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Definition_syntax" xlink:label="loc_Definition_syntax_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Definition_syntax_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Definition_syntax_label">syntax</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Definition_syntax_label" xlink:to="lbl_Definition_syntax_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Syntax_technologoyName" xlink:label="loc_Syntax_technologoyName_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Syntax_technologoyName_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Syntax_technologoyName_label">technologoyName</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Syntax_technologoyName_label" xlink:to="lbl_Syntax_technologoyName_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Syntax_fields" xlink:label="loc_Syntax_fields_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Syntax_fields_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Syntax_fields_label">fields</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Syntax_fields_label" xlink:to="lbl_Syntax_fields_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Model_class" xlink:label="loc_Model_class_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Model_class_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Model_class_label">class</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Model_class_label" xlink:to="lbl_Model_class_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Shuck_definition" xlink:label="loc_Shuck_definition_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Shuck_definition_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Shuck_definition_label">definition</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Shuck_definition_label" xlink:to="lbl_Shuck_definition_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Shuck_release" xlink:label="loc_Shuck_release_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Shuck_release_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Shuck_release_label">release</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Shuck_release_label" xlink:to="lbl_Shuck_release_label"/>
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Release_generatedModel" xlink:label="loc_Release_generatedModel_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Release_generatedModel_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Release_generatedModel_label">generatedModel</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Release_generatedModel_label" xlink:to="lbl_Release_generatedModel_label"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/definition" xlink:type="simple" xlink:href="shuck_meta_model.xbrl.xsd#definition"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/definition"></link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/guidance" xlink:type="simple" xlink:href="shuck_meta_model.xbrl.xsd#guidance"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/guidance"></link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/comment" xlink:type="simple" xlink:href="shuck_meta_model.xbrl.xsd#comment"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/comment">
+    <link:loc xlink:type="locator" xlink:href="shuck_meta_model.xbrl.xsd#Shuck" xlink:label="loc_Shuck_comment"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Shuck_comment" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Shuck_comment"> This is a doccomment (note the double asterix)
+ This comment is used to add documentation to your model,
+ and will be added to the output generation if the technology
+ you're deploying to supports it
+ 
+ Doccomments apply to whatever is immediately beneath them
+ 
+ The first line of a class definition can't start with a space
+ just like Shuck here.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Shuck_comment" xlink:to="lbl_Shuck_comment"/>
+  </link:labelLink>
+</link:linkbase>

@@ -1,0 +1,129 @@
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://ausdx.io/label" xlink:type="simple" xlink:href="tfn_integrity_check.xbrl.xsd#label"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/label">
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person" xlink:label="loc_Person_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_label">Person</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_label" xlink:to="lbl_Person_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_tfn" xlink:label="loc_Person_tfn_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_tfn_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_tfn_label">tfn</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_tfn_label" xlink:to="lbl_Person_tfn_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_birthDate" xlink:label="loc_Person_birthDate_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_birthDate_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_birthDate_label">birthDate</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_birthDate_label" xlink:to="lbl_Person_birthDate_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_familyName" xlink:label="loc_Person_familyName_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_familyName_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_familyName_label">familyName</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_familyName_label" xlink:to="lbl_Person_familyName_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_givenName" xlink:label="loc_Person_givenName_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_givenName_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_givenName_label">givenName</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_givenName_label" xlink:to="lbl_Person_givenName_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_otherName" xlink:label="loc_Person_otherName_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_otherName_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_otherName_label">otherName</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_otherName_label" xlink:to="lbl_Person_otherName_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_address" xlink:label="loc_Person_address_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_address_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_address_label">address</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_address_label" xlink:to="lbl_Person_address_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_usage" xlink:label="loc_Address_usage_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_usage_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_usage_label">usage</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_usage_label" xlink:to="lbl_Address_usage_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line1" xlink:label="loc_Address_line1_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line1_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line1_label">line1</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line1_label" xlink:to="lbl_Address_line1_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line2" xlink:label="loc_Address_line2_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line2_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line2_label">line2</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line2_label" xlink:to="lbl_Address_line2_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line3" xlink:label="loc_Address_line3_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line3_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line3_label">line3</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line3_label" xlink:to="lbl_Address_line3_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line4" xlink:label="loc_Address_line4_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line4_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line4_label">line4</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line4_label" xlink:to="lbl_Address_line4_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_suburb" xlink:label="loc_Address_suburb_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_suburb_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_suburb_label">suburb</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_suburb_label" xlink:to="lbl_Address_suburb_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_postcode" xlink:label="loc_Address_postcode_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_postcode_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_postcode_label">postcode</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_postcode_label" xlink:to="lbl_Address_postcode_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_state" xlink:label="loc_Address_state_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_state_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_state_label">state</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_state_label" xlink:to="lbl_Address_state_label"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_country" xlink:label="loc_Address_country_label"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_country_label" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_country_label">country</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_country_label" xlink:to="lbl_Address_country_label"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/definition" xlink:type="simple" xlink:href="tfn_integrity_check.xbrl.xsd#definition"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/definition">
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_tfn" xlink:label="loc_Person_tfn_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_tfn_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_tfn_definition">The tax file number for a student</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_tfn_definition" xlink:to="lbl_Person_tfn_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_birthDate" xlink:label="loc_Person_birthDate_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_birthDate_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_birthDate_definition">The year, month and day in which an individual was born.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_birthDate_definition" xlink:to="lbl_Person_birthDate_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_familyName" xlink:label="loc_Person_familyName_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_familyName_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_familyName_definition">The person's last name or surname. The name by which a family group is identified.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_familyName_definition" xlink:to="lbl_Person_familyName_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_givenName" xlink:label="loc_Person_givenName_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_givenName_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_givenName_definition">The name given to a person which is that person's identifying name within the family group or the name by which the person is uniquely socially identified; the name borne by an individual, often assigned by his or her parents shortly after birth, as opposed to the inherited surname.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_givenName_definition" xlink:to="lbl_Person_givenName_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_otherName" xlink:label="loc_Person_otherName_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_otherName_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_otherName_definition">The middle name given to a person which complements that person's identifying name within the family group or the name by which the person is uniquely socially identified.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_otherName_definition" xlink:to="lbl_Person_otherName_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_usage" xlink:label="loc_Address_usage_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_usage_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_usage_definition">Implements one of the possible address types available for a Party.  Many businesses have multiple addresses that include locations, mailing addresses, corporate offices and seasonal addresses.  For individual clients, examples includes Residential, Postal or Registered address.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_usage_definition" xlink:to="lbl_Address_usage_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line1" xlink:label="loc_Address_line1_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line1_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line1_definition">First line utilising free format, that is used to create a semi structured address.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line1_definition" xlink:to="lbl_Address_line1_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line2" xlink:label="loc_Address_line2_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line2_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line2_definition">Second line utilising free format, that is used to create a semi structured address.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line2_definition" xlink:to="lbl_Address_line2_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line3" xlink:label="loc_Address_line3_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line3_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line3_definition">The content of an address line used for overseas addresses. This can also be used for Australian addresses that do not conform with the structured address format.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line3_definition" xlink:to="lbl_Address_line3_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line4" xlink:label="loc_Address_line4_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line4_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line4_definition">The content of an address line used for overseas addresses. This can also be used for Australian addresses that do not conform with the structured address format.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line4_definition" xlink:to="lbl_Address_line4_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_suburb" xlink:label="loc_Address_suburb_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_suburb_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_suburb_definition">A word or combination of words, by which a geographic locality/suburb is designated or known.</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_suburb_definition" xlink:to="lbl_Address_suburb_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_postcode" xlink:label="loc_Address_postcode_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_postcode_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_postcode_definition">The Australian descriptor for a postal delivery area, aligned with locality, suburb or place</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_postcode_definition" xlink:to="lbl_Address_postcode_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_state" xlink:label="loc_Address_state_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_state_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_state_definition">The code that is assigned to each Australian State or Territory</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_state_definition" xlink:to="lbl_Address_state_definition"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_country" xlink:label="loc_Address_country_definition"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_country_definition" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_country_definition">This represents the Country Name as prescribed by AS4590 and inherited from ISO 3166</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_country_definition" xlink:to="lbl_Address_country_definition"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/guidance" xlink:type="simple" xlink:href="tfn_integrity_check.xbrl.xsd#guidance"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/guidance">
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Person_tfn" xlink:label="loc_Person_tfn_guidance"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Person_tfn_guidance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Person_tfn_guidance">Field Name: TF-NUMBER</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Person_tfn_guidance" xlink:to="lbl_Person_tfn_guidance"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_usage" xlink:label="loc_Address_usage_guidance"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_usage_guidance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_usage_guidance">RES - Residential, TEM - Temporary accommodation, BUS - Business, DEL - Delivery address, POS - Postal or correspondence address, CNT - General contact, including when using a 3rd party as contact, PMT - Address to be used for payment purposes</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_usage_guidance" xlink:to="lbl_Address_usage_guidance"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line3" xlink:label="loc_Address_line3_guidance"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line3_guidance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line3_guidance">Unstructured addresses have many formats. To accommodate this the use of
+unstructured lines of detail are used. While 4 lines have been provided for overseas
+address details, not all lines need to be used.
+Overseas addresses may follow different formats to that of Australian addresses. So they required an unstructured format to support their peculiarities.
+Common differences are:
+- Street name preceding street number
+- Postcode format
+- Postcode preceding locality name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line3_guidance" xlink:to="lbl_Address_line3_guidance"/>
+    <link:loc xlink:type="locator" xlink:href="tfn_integrity_check.xbrl.xsd#Address_line4" xlink:label="loc_Address_line4_guidance"/>
+    <link:label xlink:type="resource" xlink:label="lbl_Address_line4_guidance" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="lbl_Address_line4_guidance">Unstructured addresses have many formats. To accommodate this the use of
+unstructured lines of detail are used. While 4 lines have been provided for overseas
+address details, not all lines need to be used.
+Overseas addresses may follow different formats to that of Australian addresses. So they required an unstructured format to support their peculiarities.
+Common differences are:
+- Street name preceding street number
+- Postcode format
+- Postcode preceding locality name</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_Address_line4_guidance" xlink:to="lbl_Address_line4_guidance"/>
+  </link:labelLink>
+  <link:roleRef roleURI="http://ausdx.io/comment" xlink:type="simple" xlink:href="tfn_integrity_check.xbrl.xsd#comment"/>
+  <link:labelLink xlink:type="extended" xlink:role="http://ausdx.io/comment"></link:labelLink>
+</link:linkbase>

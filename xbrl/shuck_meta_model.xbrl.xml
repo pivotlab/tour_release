@@ -1,0 +1,2628 @@
+<xbrli:xbrl xmlns:tns="http://ausdx.io" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="shuck_meta_model.xbrl.xsd"/>
+  <xbrli:context id="c0001">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://abr.gov.au/abn">0123456789</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>1970-01-01</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u0001">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <tns:Shuck>
+    <tns:Shuck_model>
+      <tns:Model_name contextRef="c0001">foo</tns:Model_name>
+      <tns:Model_root>
+        <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Class_memberClass>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Class_memberClass>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+      </tns:Model_root>
+      <tns:Model_class>
+        <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+      </tns:Model_class>
+      <tns:Model_class>
+        <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+      </tns:Model_class>
+    </tns:Shuck_model>
+    <tns:Shuck_model>
+      <tns:Model_name contextRef="c0001">foo</tns:Model_name>
+      <tns:Model_root>
+        <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Class_memberClass>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Class_memberClass>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+      </tns:Model_root>
+      <tns:Model_class>
+        <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+      </tns:Model_class>
+      <tns:Model_class>
+        <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberClass>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+        </tns:Class_memberClass>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+        <tns:Class_memberDefinition>
+          <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+          <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+          <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+          <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_facets>
+            <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+            <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+          </tns:Definition_facets>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+          <tns:Definition_syntax>
+            <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+            <tns:Syntax_fields>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Syntax_fields>
+          </tns:Definition_syntax>
+        </tns:Class_memberDefinition>
+      </tns:Model_class>
+    </tns:Shuck_model>
+    <tns:Shuck_definition>
+      <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+      <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+      <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+      <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+      <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+      <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+      <tns:Definition_facets>
+        <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+        <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+      </tns:Definition_facets>
+      <tns:Definition_facets>
+        <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+        <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+      </tns:Definition_facets>
+      <tns:Definition_syntax>
+        <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+      </tns:Definition_syntax>
+      <tns:Definition_syntax>
+        <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+      </tns:Definition_syntax>
+    </tns:Shuck_definition>
+    <tns:Shuck_definition>
+      <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+      <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+      <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+      <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+      <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+      <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+      <tns:Definition_facets>
+        <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+        <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+      </tns:Definition_facets>
+      <tns:Definition_facets>
+        <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+        <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+      </tns:Definition_facets>
+      <tns:Definition_syntax>
+        <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+      </tns:Definition_syntax>
+      <tns:Definition_syntax>
+        <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+        <tns:Syntax_fields>
+          <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+          <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+        </tns:Syntax_fields>
+      </tns:Definition_syntax>
+    </tns:Shuck_definition>
+    <tns:Shuck_release>
+      <tns:Release_generatedModel>
+        <tns:Model_name contextRef="c0001">foo</tns:Model_name>
+        <tns:Model_root>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_root>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+      </tns:Release_generatedModel>
+      <tns:Release_generatedModel>
+        <tns:Model_name contextRef="c0001">foo</tns:Model_name>
+        <tns:Model_root>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_root>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+      </tns:Release_generatedModel>
+    </tns:Shuck_release>
+    <tns:Shuck_release>
+      <tns:Release_generatedModel>
+        <tns:Model_name contextRef="c0001">foo</tns:Model_name>
+        <tns:Model_root>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_root>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+      </tns:Release_generatedModel>
+      <tns:Release_generatedModel>
+        <tns:Model_name contextRef="c0001">foo</tns:Model_name>
+        <tns:Model_root>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberClass>
+              <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+            </tns:Class_memberClass>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+            <tns:Class_memberDefinition>
+              <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+              <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+              <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+              <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_facets>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Definition_facets>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+              <tns:Definition_syntax>
+                <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+                <tns:Syntax_fields>
+                  <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                  <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+                </tns:Syntax_fields>
+              </tns:Definition_syntax>
+            </tns:Class_memberDefinition>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_root>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+        <tns:Model_class>
+          <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberClass>
+            <tns:Class_name contextRef="c0001">foo</tns:Class_name>
+          </tns:Class_memberClass>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+          <tns:Class_memberDefinition>
+            <tns:Definition_name contextRef="c0001">foo</tns:Definition_name>
+            <tns:Definition_id contextRef="c0001">foo</tns:Definition_id>
+            <tns:Definition_definition contextRef="c0001">foo</tns:Definition_definition>
+            <tns:Definition_guidance contextRef="c0001">foo</tns:Definition_guidance>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_enumerations contextRef="c0001">foo</tns:Definition_enumerations>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_facets>
+              <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+              <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+            </tns:Definition_facets>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+            <tns:Definition_syntax>
+              <tns:Syntax_technologoyName contextRef="c0001">foo</tns:Syntax_technologoyName>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+              <tns:Syntax_fields>
+                <tns:NameValue_name contextRef="c0001">foo</tns:NameValue_name>
+                <tns:NameValue_value contextRef="c0001">foo</tns:NameValue_value>
+              </tns:Syntax_fields>
+            </tns:Definition_syntax>
+          </tns:Class_memberDefinition>
+        </tns:Model_class>
+      </tns:Release_generatedModel>
+    </tns:Shuck_release>
+  </tns:Shuck>
+</xbrli:xbrl>

@@ -1,0 +1,316 @@
+{
+  "model": [
+    {
+      "name": "foo",
+      "root": {
+        "name": "foo",
+        "memberClass": [
+          {
+            "name": "foo",
+            "memberClass": [
+              {}
+            ],
+            "memberDefinition": [
+              {
+                "name": "foo",
+                "id": "foo",
+                "definition": "foo",
+                "guidance": "foo",
+                "enumerations": [
+                  "foo"
+                ],
+                "facets": [
+                  {
+                    "name": "foo",
+                    "value": "foo"
+                  }
+                ],
+                "syntax": [
+                  {
+                    "technologoyName": "foo",
+                    "fields": [
+                      {
+                        "name": "foo",
+                        "value": "foo"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "memberDefinition": [
+          {
+            "name": "foo",
+            "id": "foo",
+            "definition": "foo",
+            "guidance": "foo",
+            "enumerations": [
+              "foo"
+            ],
+            "facets": [
+              {
+                "name": "foo",
+                "value": "foo"
+              }
+            ],
+            "syntax": [
+              {
+                "technologoyName": "foo",
+                "fields": [
+                  {
+                    "name": "foo",
+                    "value": "foo"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "class": [
+        {
+          "name": "foo",
+          "memberClass": [
+            {
+              "name": "foo",
+              "memberClass": [
+                {}
+              ],
+              "memberDefinition": [
+                {
+                  "name": "foo",
+                  "id": "foo",
+                  "definition": "foo",
+                  "guidance": "foo",
+                  "enumerations": [
+                    "foo"
+                  ],
+                  "facets": [
+                    {
+                      "name": "foo",
+                      "value": "foo"
+                    }
+                  ],
+                  "syntax": [
+                    {
+                      "technologoyName": "foo",
+                      "fields": [
+                        {
+                          "name": "foo",
+                          "value": "foo"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "memberDefinition": [
+            {
+              "name": "foo",
+              "id": "foo",
+              "definition": "foo",
+              "guidance": "foo",
+              "enumerations": [
+                "foo"
+              ],
+              "facets": [
+                {
+                  "name": "foo",
+                  "value": "foo"
+                }
+              ],
+              "syntax": [
+                {
+                  "technologoyName": "foo",
+                  "fields": [
+                    {
+                      "name": "foo",
+                      "value": "foo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "definition": [
+    {
+      "name": "foo",
+      "id": "foo",
+      "definition": "foo",
+      "guidance": "foo",
+      "enumerations": [
+        "foo"
+      ],
+      "facets": [
+        {
+          "name": "foo",
+          "value": "foo"
+        }
+      ],
+      "syntax": [
+        {
+          "technologoyName": "foo",
+          "fields": [
+            {
+              "name": "foo",
+              "value": "foo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "release": [
+    {
+      "generatedModel": [
+        {
+          "name": "foo",
+          "root": {
+            "name": "foo",
+            "memberClass": [
+              {
+                "name": "foo",
+                "memberClass": [
+                  {}
+                ],
+                "memberDefinition": [
+                  {
+                    "name": "foo",
+                    "id": "foo",
+                    "definition": "foo",
+                    "guidance": "foo",
+                    "enumerations": [
+                      "foo"
+                    ],
+                    "facets": [
+                      {
+                        "name": "foo",
+                        "value": "foo"
+                      }
+                    ],
+                    "syntax": [
+                      {
+                        "technologoyName": "foo",
+                        "fields": [
+                          {
+                            "name": "foo",
+                            "value": "foo"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "memberDefinition": [
+              {
+                "name": "foo",
+                "id": "foo",
+                "definition": "foo",
+                "guidance": "foo",
+                "enumerations": [
+                  "foo"
+                ],
+                "facets": [
+                  {
+                    "name": "foo",
+                    "value": "foo"
+                  }
+                ],
+                "syntax": [
+                  {
+                    "technologoyName": "foo",
+                    "fields": [
+                      {
+                        "name": "foo",
+                        "value": "foo"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "class": [
+            {
+              "name": "foo",
+              "memberClass": [
+                {
+                  "name": "foo",
+                  "memberClass": [
+                    {}
+                  ],
+                  "memberDefinition": [
+                    {
+                      "name": "foo",
+                      "id": "foo",
+                      "definition": "foo",
+                      "guidance": "foo",
+                      "enumerations": [
+                        "foo"
+                      ],
+                      "facets": [
+                        {
+                          "name": "foo",
+                          "value": "foo"
+                        }
+                      ],
+                      "syntax": [
+                        {
+                          "technologoyName": "foo",
+                          "fields": [
+                            {
+                              "name": "foo",
+                              "value": "foo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "memberDefinition": [
+                {
+                  "name": "foo",
+                  "id": "foo",
+                  "definition": "foo",
+                  "guidance": "foo",
+                  "enumerations": [
+                    "foo"
+                  ],
+                  "facets": [
+                    {
+                      "name": "foo",
+                      "value": "foo"
+                    }
+                  ],
+                  "syntax": [
+                    {
+                      "technologoyName": "foo",
+                      "fields": [
+                        {
+                          "name": "foo",
+                          "value": "foo"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

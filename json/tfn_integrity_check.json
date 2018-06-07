@@ -1,0 +1,18 @@
+{
+  "tfn": "bar",
+  "birthDate": "foo",
+  "familyName": "foo",
+  "givenName": "foo",
+  "otherName": "foo",
+  "address": {
+    "usage": "foo",
+    "line1": "foo",
+    "line2": "foo",
+    "line3": "foo",
+    "line4": "foo",
+    "suburb": "foo",
+    "postcode": "foo",
+    "state": "foo",
+    "country": "foo"
+  }
+}
